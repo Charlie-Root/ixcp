@@ -3,7 +3,7 @@ from django.urls import path
 from .views import (
     LogInView, ResendActivationCodeView, RemindUsernameView, SignUpView, ActivateView, LogOutView,
     ChangeEmailView, ChangeEmailActivateView, ChangeProfileView, ChangePasswordView,
-    RestorePasswordView, RestorePasswordDoneView, RestorePasswordConfirmView,
+    RestorePasswordView, RestorePasswordDoneView, RestorePasswordConfirmView, OverviewASN, OverviewIPv4, OverviewIPv6, OverviewRPKI, OverviewDNS
 )
 
 app_name = 'accounts'
@@ -27,4 +27,11 @@ urlpatterns = [
     path('change/password/', ChangePasswordView.as_view(), name='change_password'),
     path('change/email/', ChangeEmailView.as_view(), name='change_email'),
     path('change/email/<code>/', ChangeEmailActivateView.as_view(), name='change_email_activation'),
+
+    path('overview/asn/', OverviewASN.as_view(), name='asn_overview'),
+    path('overview/ipv4/', OverviewIPv4.as_view(), name='ipv4_overview'),
+    path('overview/ipv6/', OverviewIPv6.as_view(), name='ipv6_overview'),
+    path('overview/dns/', OverviewDNS.as_view(), name='dns_overview'),
+    path('overview/rpki/', OverviewRPKI.as_view(), name='rpki_overview'),
+
 ]

@@ -230,7 +230,7 @@ class ChangeProfileView(LoginRequiredMixin, FormView):
             user_form.save()
             profile_form.save()
             messages.success(request, 'Your profile was successfully updated!')
-            
+
         context = self.get_context_data(
                                         user_form=user_form,
                                         profile_form=profile_form
@@ -345,3 +345,15 @@ class RestorePasswordDoneView(BasePasswordResetDoneView):
 
 class LogOutView(LoginRequiredMixin, BaseLogoutView):
     template_name = 'accounts/log_out.html'
+
+
+class OverviewASN(View):
+    template_name = 'main/index.html'
+class OverviewIPv4(View):
+    template_name = 'main/index.html'
+class OverviewIPv6(View):
+    template_name = 'main/index.html'
+class OverviewRPKI(View):
+    template_name = 'main/index.html'
+class OverviewDNS(View):
+    template_name = 'main/index.html'
