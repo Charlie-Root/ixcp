@@ -2,9 +2,12 @@
 
 ## Table of Contents
 
-- [What is "IXCP""?](#what-is-ixcp)
+- [What is "IXCP"?](#what-is-ixcp)
+- [Command line usage?](#command-line-usage)
 
 ## What is "IXCP"?
+
+Will come soon.
 
 ## Command line usage
 
