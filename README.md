@@ -31,3 +31,15 @@ Now you can start the server using:
 ```sh
 $ python3 manage.py runserver 0.0.0.0:8080
 ```
+
+## About
+
+### Contributing
+
+Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](../../issues/new).
+
+### Author
+
+**Wieger Bontekoe**
+* [github/Charlie-Root](https://github.com/Charlie-Root)
+* [linkedin/wbontekoe](https://www.linkedin.com/in/wbontekoe/)
