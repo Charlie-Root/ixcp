@@ -36,7 +36,7 @@ $ python3 manage.py runserver 0.0.0.0:8080
 
 ### Contributing
 
-Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](../../issues/new).
+Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](../../issues/new/choose).
 
 ### Author
 
